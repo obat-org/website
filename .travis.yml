@@ -2,4 +2,8 @@ language: node_js
 dist: trusty
 sudo: false
 
-
+deploy:
+  provider: script
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/* $DEPLOY_USER@$DEPLOY_IP:public/html/
+  on:
+    branch: master
