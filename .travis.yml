@@ -4,6 +4,6 @@ sudo: false
 
 deploy:
   provider: script
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/* $DEPLOY_USER@$DEPLOY_IP:public/html/
+  script: wget -O /dev/null -q http://obat.tyrnan.co.uk/.travis/pull.php
   on:
     branch: master
