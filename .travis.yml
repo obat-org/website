@@ -1,4 +1,4 @@
-/home/tyrnan/public-html
+language: bash
 
 deploy:
   provider: script
