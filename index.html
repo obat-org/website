@@ -1,144 +1,153 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <style>
-            img{
-                float: left;
-            }
-            
-            .headish {
-                text-align: center;
-                font-size: 350%;
-                font-family:georgia,garamond,serif;
-            }
-            .borderedthing {  
-                border: 8px groove red;
-                width: 60%;
-                margin: 0px;
-                margin-top: 40px;
-                text-align: center;
-                font-size: 225%;
-            }
-            .borderedthing2{
-                float: right; 
-                border: 8px groove red;
-                width: 30%;
-                height: 1125px;
-                margin-right: 25px;
-                margin-top: 0px; 
-                text-align: center;
-                font-size: 180%;
-            } 
-        </style> 
-    </head>
-<body background="geometry-background.png">
-    <img scr="OBAT.BOT.png" alt="OBAT logo" style="width:125px; height:125px; margin-left:15px;">  
-    <div class="headish">
-        <h1>
-        <script>
-                var text="O.B.A.T"
-                var speed=150
-                
-                if (document.all||document.getElementById){
-                document.write('<span id="highlight">' + text + '</span>')
-                var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
-                }
-                else
-                document.write(text)
-                var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
-                var r=1
-                var g=1
-                var b=1
-                var seq=1
-                function changetext(){
-                rainbow="#"+hex[r]+hex[g]+hex[b]
-                storetext.style.color=rainbow
-                }
-                function change(){
-                if (seq==6){
-                b--
-                if (b==0)
-                seq=1
-                }
-                if (seq==5){
-                r++
-                if (r==12)
-                seq=6
-                }
-                if (seq==4){
-                g--
-                if (g==0)
-                seq=5
-                }
-                if (seq==3){
-                b++
-                if (b==12)
-                seq=4
-                }
-                if (seq==2){
-                r--
-                if (r==0)
-                seq=3
-                }
-                if (seq==1){
-                g++
-                if (g==12)
-                seq=2
-                }
-                changetext()
-                }
-                function starteffect(){
-                if (document.all||document.getElementById)
-                flash=setInterval("change()",speed)
-                }
-                starteffect()
-                </script>
-                </b>
-            </h1>
-                </div>
-            
-    <div class="borderedthing2">
-        <p>Commands List:</p>
-                    <p>ping</p>
-                            <p>clear [number]</p>
-                                    <p>send nukes</p>
-                                            <p>why you bully me</p>
-                                                    <p>beans</p>
-                                                            <p>we need communism</p>
-                                                                    <p>how old are you</p>
-                                                                            <p>my whole family</p>
-                                                                                    <p>uno</p>
-                                                                                            <p>shrek</p> 
-                                                                                                    <p>oh baby a triple </p>
-                                                                                                            <p>bear </p>
-                                                                                                                    <p>your mom gay</p> 
-                                                                                                                            <p>oh yeah yeah</p> 
-                                                                                                                                    <p>donate</p> 
-                                                                                                                                            <p>hi EA</p>
-                                                                                                                                                    <p>google maps</p>
-                                                                                                                                                   
-                
-        </div>
-         
-    <div class="borderedthing"><center>
-        <p>
-        The Discord bot named OBAT is a bot created by mightofcat#4592 and bleh#0623
-        You can add OBAT to your server by clicking <a href=https://discordapp.com/oauth2/authorize?client_id=590578512222486577&scope=bot>here</a>.
-        OBAT has multiple commands from random images to deleting messages.
-        </p>
-        <p>
-            If you use OBAT and are not happy with him or have any issues or suggestions just
-            tell us in OBAT's suggstion section of his server, click 
-            <a href=https://discord.gg/ReAgBQW>here</a>
-            for a link to that server.
-        </p>
-        <p>
-            If you want to donate to OBAT click <a href=https://www.paypal.com/pools/c/8fPTBZOfKn>here</a>
-        </p>
-        
-    <center>
-   
-           
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+ 
+  </head>
+<header>
     
+    <div class="container">    
+    <p class="logo"> O.B.A.T
+    </p> 
+    
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donations.html">Donations</a></li>
+
+        </ul>
+    </nav>
+        
+    
+
+</div>
+
+
+
+
+
+
+
+
+</header>
+
+
+<div class="headish-1">
+<h2>
+<script>
+    var text="O.B.A.T"
+    var speed=150
+    
+    if (document.all||document.getElementById){
+    document.write('<span id="highlight">' + text + '</span>')
+    var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+    }
+    else
+    document.write(text)
+    var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+    var r=1
+    var g=1
+    var b=1
+    var seq=1
+    function changetext(){
+    rainbow="#"+hex[r]+hex[g]+hex[b]
+    storetext.style.color=rainbow
+    }
+    function change(){
+    if (seq==6){
+    b--
+    if (b==0)
+    seq=1
+    }
+    if (seq==5){
+    r++
+    if (r==12)
+    seq=6
+    }
+    if (seq==4){
+    g--
+    if (g==0)
+    seq=5
+    }
+    if (seq==3){
+    b++
+    if (b==12)
+    seq=4
+    }
+    if (seq==2){
+    r--
+    if (r==0)
+    seq=3
+    }
+    if (seq==1){
+    g++
+    if (g==12)
+    seq=2
+    }
+    changetext()
+    }
+    function starteffect(){
+    if (document.all||document.getElementById)
+    flash=setInterval("change()",speed)
+    }
+    starteffect()
+    </script>
+    </b>
+<h2>
+    </div>
+
+    <div id=Home class=headish><h2>Home</h2></div>
+
+
+<div class="borderedthing2">
+<p>Commands List:</p>
+        <p>ping</p>
+                <p>clear [number]</p>
+                        <p>send nukes</p>
+                                <p>why you bully me</p>
+                                        <p>beans</p>
+                                                <p>we need communism</p>
+                                                        <p>how old are you</p>
+                                                                <p>my whole family</p>
+                                                                        <p>uno</p>
+                                                                                <p>shrek</p> 
+                                                                                        <p>oh baby a triple </p>
+                                                                                                <p>bear </p>
+                                                                                                        <p>your mom gay</p> 
+                                                                                                                <p>oh yeah yeah</p> 
+                                                                                                                        <p>donate</p> 
+                                                                                                                                <p>hi EA</p>
+                                                                                                                                        <p>google maps</p>
+                                                                                                                                       
+    
+</div>
+
+<div class="borderedthing"><center>
+<p>
+    This website is for promoting and explaining or giving information for OBAT. 
+    Here you will find the Donations section, the Home section (you are here now), and the About page.
+    You can access these  by scrolling down the page or with the navigation bar above. 
+</p>
+<p>
+If you ever have any issues with OBAT you can contactus through discord. 
+You can do this through our discord sever for OBAT if u want that click <a href=https://discord.gg/ReAgBQW>here</a>.
+Alternatly you could contact us directly, our discord tags are displayed below.  
+</p>
+
+<p>
+        bleh#0623
+</p>
+<p>
+        mightofcat#4592
+</p>
+<p>
+        If you dont already have discord its a great app to talk with friends if you have no friends then you can talk to bots click <a href=https://discordapp.com/download>here</a> to get discord.
+</p>
+</center></div>
+
+    
+
 </body>
 </html>
