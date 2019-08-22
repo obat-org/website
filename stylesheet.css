@@ -9,11 +9,17 @@
 	font-size: 375%;
 	font-family:georgia,garamond,serif;
 	margin-top: 20;
+	color: navy
 }
-.headish2 {
+.headish21 {
 	text-align: center;
-	font-size: 375%;
-	font-family:georgia,garamond,serif;
+	font-size: 70px;
+	margin-top: auto;
+	animation: zoom;
+}
+.headish211 {
+	text-align: center;
+	font-size: 100px;
 	margin-top: auto;
 }
 .headish3 {
@@ -38,7 +44,9 @@
 	margin-right: 25px;
 	margin-top: 0px; 
 	text-align: center;
-font-size: 180%;}
+	font-size: 180%;
+	padding: 3px;
+}
 
 .borderedthing3 {  
 	border: 8px groove red;
@@ -46,7 +54,9 @@ font-size: 180%;}
 	margin: 0px;
 	margin-top: 40px;
 	text-align: center;
-font-size: 225%;}
+	font-size: 225%;
+	padding: 3px;
+}
 
 .name1{
 	float: left;
@@ -134,19 +144,7 @@ nav a:hover::before{
 a {
 	color: inherit;
 	text-decoration: inherit;
-  }
-.flashting{
-	width: 90px;
-	height: 50px;
-	background-color: red;
-	float: left;
-	margin-left: 400px;
-	margin-top: 150px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration-color: #000; 
-  }
-
+}
   .flashting:hover{
 	width: 100px;
 	height: 60px;
@@ -164,26 +162,39 @@ a {
   .flashting2{
 	width: 90px;
 	height: 50px;
-	background-color: red;
+	background-color: blueviolet;
 	float: left;
-	margin-left: 10px;
-	margin-top: 150px;
+	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
+	margin-left: 50px;
+	margin-top: 50px;
   }
   .flashting2:hover{
-	width: 100px;
-	height: 60px;
-	background-color: red;
+	width: 95px;
+	height: 55px;
+	background-color: blueviolet;
 	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
 	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
 	animation-name: example;
 	animation-duration: 6s;
 	float: left;
-	margin-left: 10px;
-	margin-top: 150px;
+	margin-left: 50px;
+	margin-top: 50px;
 	text-align: center;
 	font-weight: 400;
   }
+  .icantdoanything {
+	text-align: center;
+	font-size: 375%;
+	font-family:georgia,garamond,serif;
+	margin-top: auto;
+  }
+  
+
+
+
+
+
   
   
